@@ -23,12 +23,35 @@
     <string name="communicate">Communicate</string>
     <string name="nav_share_message">Don\'t you think you have shared enough</string>
     <string name="nav_send_message">Send</string>
-    <string name="nav_notes">Notes</string>
+    <string name="nav_noapp_info_headertes">Notes</string>
     <string name="title_activity_settings">Settings</string>
 
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
     <string name="sync_header">Sync</string>
+    <string name="app_info_header">App Info</string>
+    <string name="general_header">General</string>
+    <string name="pref_title_display_name">Display Name</string>
+    <string name="pref_default_display_name">Mr. Loogs</string>
+    <string name="pref_title_email_address">E-Mail Address</string>
+    <string name="pref_default_email_address">me@loogs.dev</string>
+    <string name="pref_title_favourite_social">Favourite Social Network</string>
+
+    <!-- Favourite Social Network: As Displayed to Users-->
+    <string-array name="pref_entries_favourite_social">
+        <item>Gogole+</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+    </string-array>
+
+    <!-- Favourite Social Network: How we want the progrma to interact with user selection-->
+    <string-array name="pref_values_favourite_social">
+        <item>http://pplus.google.com</item>
+        <item>http://facebook.com</item>
+        <item>http://twitter.com</item>
+    </string-array>
+
+    <string name="pref_default_favourite_social">http://facebook.com</string>
 
     <!-- Messages Preferences -->
     <string name="signature_title">Your signature</string>
@@ -37,9 +60,9 @@
     <!-- Sync Preferences -->
     <string name="sync_title">Sync email periodically</string>
     <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="note_title_hint">Note Title</string>
     <string name="note_text_hint">Note Text</string>
+    <string name="nav_notes">Notes</string>
 </resources>
